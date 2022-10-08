@@ -1,0 +1,11 @@
+body{
+    background-color: black;
+}
+.grid-container
+{
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: (300px 400px);
+    grid-auto-rows: minmax(200px, auto);
+    justify-content: center;
+}
